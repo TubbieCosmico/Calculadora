@@ -1,0 +1,55 @@
+/* Add application styles & imports to this file! */
+
+.display {
+  border: 1px solid rgb(0, 0, 0);
+  width: 150px;
+  height: 20px;
+  text-align: right;
+  margin-bottom: 20px;
+  padding: 5px;
+  background-color: white;
+}
+
+.num_buttons {
+  display: grid;
+  width: 100%;
+  justify-items: center;
+  padding: 5px;
+  padding-bottom: 5px;
+  grid-template-columns: 37.5px 37.5px 37.5px 37.5px;
+}
+
+.results {
+  display: grid;
+  width: 100%;
+  justify-items: center;
+  padding-right: 5px;
+  padding-left: 5px;
+  grid-template-columns: 114.5px 37.5px;
+}
+
+.button {
+  cursor: pointer;
+  border: 1px solid black;
+  width: 37.5px;
+  height: 37.5px;
+  margin: 5px;
+  text-align: center;
+  background-color: lightgray;
+  line-height: 37.5px;
+}
+
+.button-igual {
+  width: 114.5px;
+}
+
+.calculator {
+  border: 1px solid black;
+  width: 165px;
+  padding: 20px;
+  background-color: azure;
+}
+
+.button:hover {
+  background-color: rgb(124, 231, 231);
+}
